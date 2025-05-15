@@ -1,0 +1,20 @@
+[
+  {
+    "name": "super man",
+    "image": "https://i.pinimg.com/736x/86/68/7a/86687a28d07e17f3bc3e10467a102b88.jpg",
+    "description": "A teenager like abilities.",
+    "tagline": "Your friendly neighborhood super man."
+  },
+  {
+    "name": "Batman",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg",
+    "description": "A billionaire fighting crime in Gotham.",
+    "tagline": "I am the night."
+  },
+  {
+    "name": "Iron Man",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg",
+    "description": "american hero",
+    "tagline": "Truth, justice, and equality."
+  }
+]

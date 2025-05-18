@@ -2,6 +2,8 @@
 const validUsername = "admin";
 const validPassword = "1234";
 
+const resultDiv = document.getElementById("result");
+
 function login() {
   const user = document.getElementById('username').value;
   const pass = document.getElementById('password').value;
@@ -17,9 +19,8 @@ function login() {
 
 async function searchHero() {
   const input = document.getElementById("searchInput").value.trim().toLowerCase();
-  const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "Searching...";
-
+  
   try {
     const response = await fetch("data.json");
     const heroes = await response.json();
